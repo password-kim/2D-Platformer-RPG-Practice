@@ -12,6 +12,9 @@ public class Player : MonoBehaviour
     public PlayerJumpState JumpState { get; private set; }
     public PlayerInAirState InAirState { get; private set; }
     public PlayerLandState LandState { get; private set; }
+    public PlayerWallSlideState WallSlideState { get; private set; }
+    public PlayerWallGrabState WallGrabState { get; private set; }
+    public PlayerWallClimbState WallClimbState { get; private set; }
 
     [SerializeField]
     private PlayerData _playerData;
@@ -27,6 +30,9 @@ public class Player : MonoBehaviour
     #region Check Transforms
     [SerializeField]
     private Transform _groundCheck;
+
+    [SerializeField]
+    private Transform _wallCheck;
 
     #endregion
 
@@ -48,6 +54,9 @@ public class Player : MonoBehaviour
         JumpState = new PlayerJumpState(this, StateMahine, _playerData, "inAir");
         InAirState = new PlayerInAirState(this, StateMahine, _playerData, "inAir");
         LandState = new PlayerLandState(this, StateMahine, _playerData, "land");
+        WallSlideState = new PlayerWallSlideState(this, StateMahine, _playerData, "wallSlide");
+        WallGrabState = new PlayerWallGrabState(this, StateMahine, _playerData, "wallGrab");
+        WallClimbState = new PlayerWallClimbState(this, StateMahine, _playerData, "wallClimb");
 
         Anim = GetComponent<Animator>();
         InputHandler = GetComponent<PlayerInputHandler>();
@@ -97,6 +106,11 @@ public class Player : MonoBehaviour
     public bool CheckIfGrounded()
     {
         return Physics2D.OverlapCircle(_groundCheck.position, _playerData.GroundCheckRadius, _playerData.WhatIsGround);
+    }
+
+    public bool CheckIfTouchingWall()
+    {
+        return Physics2D.Raycast(_wallCheck.position, Vector2.right * FacingDirection, _playerData.WallCheckDistance, _playerData.WhatIsGround);
     }
 
     public void CheckIfshouldFlip(int xInput)
