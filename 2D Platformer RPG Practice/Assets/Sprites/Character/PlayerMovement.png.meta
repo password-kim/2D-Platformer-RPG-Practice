@@ -189,7 +189,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_4
+      name: JumpX_0
       rect:
         serializedVersion: 2
         x: 0
@@ -210,7 +210,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_5
+      name: JumpX_1
       rect:
         serializedVersion: 2
         x: 64
@@ -231,7 +231,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_6
+      name: JumpX_2
       rect:
         serializedVersion: 2
         x: 128
@@ -252,7 +252,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_7
+      name: Jump_0
       rect:
         serializedVersion: 2
         x: 0
@@ -273,7 +273,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_8
+      name: Jump_1
       rect:
         serializedVersion: 2
         x: 64
@@ -294,7 +294,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_9
+      name: Jump_2
       rect:
         serializedVersion: 2
         x: 128
@@ -315,7 +315,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_10
+      name: Fall_0
       rect:
         serializedVersion: 2
         x: 0
@@ -336,7 +336,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_11
+      name: Fall_1
       rect:
         serializedVersion: 2
         x: 64
@@ -357,7 +357,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_12
+      name: Fall_2
       rect:
         serializedVersion: 2
         x: 128
@@ -378,7 +378,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_13
+      name: Land_0
       rect:
         serializedVersion: 2
         x: 0
@@ -399,7 +399,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_14
+      name: Land_1
       rect:
         serializedVersion: 2
         x: 64
@@ -420,7 +420,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_15
+      name: Land_2
       rect:
         serializedVersion: 2
         x: 128
@@ -546,7 +546,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_21
+      name: Move_0
       rect:
         serializedVersion: 2
         x: 0
@@ -567,7 +567,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_22
+      name: Move_1
       rect:
         serializedVersion: 2
         x: 64
@@ -588,7 +588,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_23
+      name: Move_2
       rect:
         serializedVersion: 2
         x: 128
@@ -609,11 +609,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_24
+      name: Move_3
       rect:
         serializedVersion: 2
         x: 192
-        y: 256
+        y: 255
         width: 64
         height: 64
       alignment: 0
@@ -630,7 +630,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_25
+      name: Move_4
       rect:
         serializedVersion: 2
         x: 256
@@ -651,7 +651,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_26
+      name: Move_5
       rect:
         serializedVersion: 2
         x: 320
@@ -672,7 +672,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_27
+      name: Move_6
       rect:
         serializedVersion: 2
         x: 384
@@ -693,11 +693,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_28
+      name: Move_7
       rect:
         serializedVersion: 2
         x: 448
-        y: 256
+        y: 257
         width: 64
         height: 64
       alignment: 0
@@ -714,7 +714,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_29
+      name: Move_8
       rect:
         serializedVersion: 2
         x: 512
@@ -735,7 +735,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_30
+      name: Move_9
       rect:
         serializedVersion: 2
         x: 576
@@ -756,10 +756,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_31
+      name: Move_10
       rect:
         serializedVersion: 2
-        x: 640
+        x: 641
         y: 256
         width: 64
         height: 64
@@ -777,7 +777,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_32
+      name: Move_11
       rect:
         serializedVersion: 2
         x: 704
@@ -1585,33 +1585,39 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Fall_0: 223835020
+      Fall_1: 1192498678
+      Fall_2: -1029218398
       Idle_0: 306722051
       Idle_1: -1117635053
       Idle_2: -867253111
       Idle_3: -1608132631
-      PlayerMovement_10: 223835020
-      PlayerMovement_11: 1192498678
-      PlayerMovement_12: -1029218398
-      PlayerMovement_13: 1006714367
-      PlayerMovement_14: -364603975
-      PlayerMovement_15: 1851201259
+      JumpX_0: -2135568010
+      JumpX_1: -1210740333
+      JumpX_2: -75128987
+      Jump_0: -932113054
+      Jump_1: 286328283
+      Jump_2: -388538811
+      Land_0: 1006714367
+      Land_1: -364603975
+      Land_2: 1851201259
+      Move_0: -1582030184
+      Move_1: 1311866425
+      Move_10: -1842077120
+      Move_11: -659968284
+      Move_2: -875970080
+      Move_3: -1945418253
+      Move_4: 1077192423
+      Move_5: 1746584245
+      Move_6: -1802266932
+      Move_7: 1184710963
+      Move_8: 1368617369
+      Move_9: 1717252691
       PlayerMovement_16: 742002465
       PlayerMovement_17: 1799148036
       PlayerMovement_18: 1096735434
       PlayerMovement_19: 1337597483
       PlayerMovement_20: -728371402
-      PlayerMovement_21: -1582030184
-      PlayerMovement_22: 1311866425
-      PlayerMovement_23: -875970080
-      PlayerMovement_24: -1945418253
-      PlayerMovement_25: 1077192423
-      PlayerMovement_26: 1746584245
-      PlayerMovement_27: -1802266932
-      PlayerMovement_28: 1184710963
-      PlayerMovement_29: 1368617369
-      PlayerMovement_30: 1717252691
-      PlayerMovement_31: -1842077120
-      PlayerMovement_32: -659968284
       PlayerMovement_33: 1940477010
       PlayerMovement_34: 950706168
       PlayerMovement_35: 178989246
@@ -1619,7 +1625,6 @@ TextureImporter:
       PlayerMovement_37: -1330171257
       PlayerMovement_38: -767374922
       PlayerMovement_39: -1323952666
-      PlayerMovement_4: -2135568010
       PlayerMovement_40: 208568172
       PlayerMovement_41: -813023137
       PlayerMovement_42: -1086544701
@@ -1630,7 +1635,6 @@ TextureImporter:
       PlayerMovement_47: 962313692
       PlayerMovement_48: 686556411
       PlayerMovement_49: 1422779105
-      PlayerMovement_5: -1210740333
       PlayerMovement_50: 2076769224
       PlayerMovement_51: 395049924
       PlayerMovement_52: 1973716438
@@ -1641,7 +1645,6 @@ TextureImporter:
       PlayerMovement_57: 1154644716
       PlayerMovement_58: 1515201835
       PlayerMovement_59: 707973598
-      PlayerMovement_6: -75128987
       PlayerMovement_60: 1860007640
       PlayerMovement_61: 1020765323
       PlayerMovement_62: -648087868
@@ -1652,9 +1655,6 @@ TextureImporter:
       PlayerMovement_67: 324426495
       PlayerMovement_68: -1123039012
       PlayerMovement_69: -9251976
-      PlayerMovement_7: -932113054
-      PlayerMovement_8: 286328283
-      PlayerMovement_9: -388538811
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -5,8 +5,10 @@ using UnityEngine;
 public class PlayerState
 {
     protected Player player;
-    protected PlayerStateMachine StateMachine;
+    protected PlayerStateMachine stateMachine;
     protected PlayerData playerData;
+
+    protected bool isAnimationFinished;
 
     protected float startTime;
 
@@ -15,7 +17,7 @@ public class PlayerState
     public PlayerState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName)
     {
         this.player = player;
-        this.StateMachine = stateMachine;
+        this.stateMachine = stateMachine;
         this.playerData = playerData;
         this.animBoolName = animBoolName;
     }
@@ -25,6 +27,7 @@ public class PlayerState
         DoChecks();
         player.Anim.SetBool(animBoolName, true);
         startTime = Time.time;
+        isAnimationFinished = false;
     }
 
     public virtual void Exit()
@@ -42,9 +45,10 @@ public class PlayerState
         DoChecks();
     }
 
-    public virtual void DoChecks()
-    {
+    public virtual void DoChecks() { }
 
-    }
+    public virtual void AnimationTrigger() { }
+
+    public virtual void AnimationFinishTrigger() => isAnimationFinished = true;
 
 }
