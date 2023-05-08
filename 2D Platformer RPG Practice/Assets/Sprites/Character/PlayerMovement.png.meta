@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
@@ -1239,7 +1239,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_54
+      name: CrouchIdle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1260,7 +1260,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_55
+      name: CrouchIdle_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1281,7 +1281,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_56
+      name: CrouchIdle_2
       rect:
         serializedVersion: 2
         x: 128
@@ -1302,7 +1302,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_57
+      name: CrouchIdle_3
       rect:
         serializedVersion: 2
         x: 192
@@ -1323,7 +1323,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_58
+      name: CrouchMove_0
       rect:
         serializedVersion: 2
         x: 0
@@ -1344,7 +1344,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_59
+      name: CrouchMove_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1365,7 +1365,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_60
+      name: CrouchMove_2
       rect:
         serializedVersion: 2
         x: 128
@@ -1386,7 +1386,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_61
+      name: CrouchMove_3
       rect:
         serializedVersion: 2
         x: 192
@@ -1407,7 +1407,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_62
+      name: CrouchMove_4
       rect:
         serializedVersion: 2
         x: 256
@@ -1428,7 +1428,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_63
+      name: CrouchMove_5
       rect:
         serializedVersion: 2
         x: 320
@@ -1449,7 +1449,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_64
+      name: CrouchMove_6
       rect:
         serializedVersion: 2
         x: 384
@@ -1470,7 +1470,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_65
+      name: CrouchMove_7
       rect:
         serializedVersion: 2
         x: 448
@@ -1491,7 +1491,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_66
+      name: CrouchMove_8
       rect:
         serializedVersion: 2
         x: 512
@@ -1512,7 +1512,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_67
+      name: CrouchMove_9
       rect:
         serializedVersion: 2
         x: 576
@@ -1533,7 +1533,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_68
+      name: CrouchMove_10
       rect:
         serializedVersion: 2
         x: 640
@@ -1554,7 +1554,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerMovement_69
+      name: CrouchMove_11
       rect:
         serializedVersion: 2
         x: 704
@@ -1585,6 +1585,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      CrouchIdle_0: 1575447023
+      CrouchIdle_1: -718581203
+      CrouchIdle_2: -627585918
+      CrouchIdle_3: 1154644716
+      CrouchMove_0: 1515201835
+      CrouchMove_1: 707973598
+      CrouchMove_10: -1123039012
+      CrouchMove_11: -9251976
+      CrouchMove_2: 1860007640
+      CrouchMove_3: 1020765323
+      CrouchMove_4: -648087868
+      CrouchMove_5: -539082400
+      CrouchMove_6: -347641465
+      CrouchMove_7: -98172647
+      CrouchMove_8: -166898700
+      CrouchMove_9: 324426495
       Fall_0: 223835020
       Fall_1: 1192498678
       Fall_2: -1029218398
@@ -1639,22 +1655,6 @@ TextureImporter:
       PlayerMovement_51: 395049924
       PlayerMovement_52: 1973716438
       PlayerMovement_53: 1175804883
-      PlayerMovement_54: 1575447023
-      PlayerMovement_55: -718581203
-      PlayerMovement_56: -627585918
-      PlayerMovement_57: 1154644716
-      PlayerMovement_58: 1515201835
-      PlayerMovement_59: 707973598
-      PlayerMovement_60: 1860007640
-      PlayerMovement_61: 1020765323
-      PlayerMovement_62: -648087868
-      PlayerMovement_63: -539082400
-      PlayerMovement_64: -347641465
-      PlayerMovement_65: -98172647
-      PlayerMovement_66: -166898700
-      PlayerMovement_67: 324426495
-      PlayerMovement_68: -1123039012
-      PlayerMovement_69: -9251976
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
